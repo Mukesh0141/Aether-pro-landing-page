@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aether Pro X - Ultimate Sound</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
     <!-- Font Awesome for Icons -->
-        <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-   
 </head>
 <body>
 
@@ -20,7 +20,6 @@
             <nav>
                 <ul>
                     <li><a href="#features">Features</a></li>
-                    <li><a href="#video">Demo</a></li>
                     <li><a href="#buy">Buy Now</a></li>
                     <li><a href="#newsletter">Updates</a></li>
                 </ul>
@@ -72,25 +71,16 @@
         </div>
     </section>
 
-    <!-- Video Embed -->
-    <section id="video">
-        <div class="container">
-            <h2>Experience The Tech</h2>
-            <div class="video-wrapper">
-                <!-- Embedding a generic tech abstract video -->
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LXb3EKWsInQ?si=mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </div>
-    </section>
-
     <!-- Pricing Section -->
     <section id="buy">
         <div class="container">
-            <h2>Get Yours Today</h2>
-            <p class="price-sub">Limited Launch Edition</p>
-            <div class="price-tag">₹1999</div>
-            <p style="margin-bottom: 2rem; color: #aaa;">Includes hard-shell case and USB-C braided cable.</p>
-            <a href="#" class="btn">Add to Cart</a>
+            <div class="pricing-card">
+                <p class="price-sub">Limited Launch Edition</p>
+                <h2 style="margin-bottom: 0.5rem; font-size: 2rem;">Aether Pro X</h2>
+                <div class="price-tag">₹1999</div>
+                <p class="includes-text">Includes hard-shell case, USB-C braided cable, and 2-year warranty.</p>
+                <a href="#" class="btn" style="width: 100%;">Add to Cart</a>
+            </div>
         </div>
     </section>
 
@@ -99,7 +89,7 @@
         <div class="container form-box">
             <h2>Stay Tuned</h2>
             <p style="color: #aaa;">Join our newsletter for exclusive drops and firmware updates.</p>
-            <form action="#" method="POST"> <!-- Logic would be handled by backend usually -->
+            <form action="#" method="POST"> 
                 <div class="form-group">
                     <input type="email" placeholder="Enter your email address" required>
                     <button type="submit" class="btn">Subscribe</button>
@@ -123,5 +113,4 @@
 
 </body>
 </html>
-
 
